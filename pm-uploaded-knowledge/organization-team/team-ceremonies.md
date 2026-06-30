@@ -1,7 +1,9 @@
 # Team Ceremonies
 
 > Pau-authored. Agent reads, never modifies.
-> Covers: sprint cadence, ceremonies, quarterly planning, quarterly readiness gate, FD prerequisite rule, story point scale.
+> Source: kb/master-product-document.md — Team Ceremonies & Cadence section
+
+---
 
 ## Agile Delivery Cadence
 
@@ -11,10 +13,14 @@
 - **Mid-Sprint Grooming** — Refine and prepare backlog items for the next sprint
 - **Sprint Review & Retrospective** — Inspect outcomes, improve continuously
 
+---
+
 ## Strategic & Quarterly Planning
 
 - **Annual Kickoff** — Align on product vision, strategic goals, and yearly priorities
-- **Quarterly Roadmap Check (End of Quarter)** — Review outcomes, adjust priorities
+- **Quarterly Roadmap Check (End of Quarter)** — Review outcomes, adjust priorities for upcoming quarters
+
+---
 
 ## Quarterly Readiness Gate
 
@@ -22,6 +28,10 @@ Before each quarter begins:
 - All roadmap items must have a corresponding Functional Definition (FD) — 1:1 mapping
 - Each FD must define scope, intent, and success criteria
 - No initiative enters sprint without an execution-ready FD
+
+This gate is enforced at the `quarterly-gate` command level.
+
+---
 
 ## Story Point Estimation
 
@@ -33,4 +43,4 @@ Before each quarter begins:
 | 5 | High effort | Time-consuming and challenging, but clearly defined and achievable |
 | 8 | High uncertainty | Scope or complexity unclear — needs further discovery or splitting before reliable estimation |
 
-Flag any ticket estimated at 8 points as requiring grooming or discovery before sprint commitment.
+> Flag any ticket estimated at 8 points as requiring grooming or discovery before sprint commitment.
